@@ -1,0 +1,13 @@
+<div>
+    <php
+    // Detect the language of the user's browser
+    $lang = detectLanguage();
+    
+    // Lookup the translation in a language translation file or database
+    $translation = lookupTranslation($lang, 'welcome_message');
+    
+    // Output the translated content
+    echo $translation;
+    ?>
+
+  </div>
